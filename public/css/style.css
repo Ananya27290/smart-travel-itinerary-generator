@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section{
+    min-height: 100vh;
+
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-form{
+    background: rgba(255,255,255,0.15);
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(10px);
+}
+.itinerary-box{
+    background: rgba(255,255,255,0.15);
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(10px);
+
+    color: white;
+}
+
+.day-card{
+    background: rgba(255,255,255,0.2);
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-left: 5px solid #ffc107;
+
+    border-radius: 10px;
+
+    color: white;
+}
+.saved-trip-card{
+
+    background: rgba(255,255,255,0.15);
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    backdrop-filter: blur(10px);
+
+    color: white;
+
+    border-left: 5px solid #0dcaf0;
+}
+.profile-box{
+
+    display:flex;
+    align-items:center;
+
+}
+
+.profile-circle{
+
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#ffc107;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-weight:bold;
+    font-size:20px;
+    color:#000;
+
+}
+
+.profile-text{
+
+    color:#ccc;
+    font-size:13px;
+
+}
+#map{
+
+    height:400px;
+    width:100%;
+    border-radius:10px;
+    margin-top:20px;
+
+}
+
+#routeInfo{
+
+    font-size:18px;
+    font-weight:bold;
+    color:#000;
+
+}
